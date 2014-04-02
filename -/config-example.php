@@ -30,7 +30,7 @@ define('API_SALT',		'XqO)-O4K2595JMEOQ');
 // 'smart'        - Like the original Lessn, but excludes homoglyphs.
 //                - [0-9a-z] except [o0l1]
 // Best practices are documented at <http://ajh.us/k#service-homoglyphs>
-define('AUTO_SLUG_METHOD', 'base36'); //CHANGE to a *smart method!
+define('AUTO_SLUG_METHOD', 'mixed-smart'); 
 
 // String with any characters you would like to manually exclude from future 
 // auto-generated URL slugs. false if not.
